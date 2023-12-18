@@ -1,3 +1,4 @@
+This guide closely follows [https://yarra-framework.org/server/installation/](https://yarra-framework.org/server/installation/). Some very minor changes.
 
 ## General Server Installation
 This assumes you are running Ubuntu 20.04.
