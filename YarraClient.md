@@ -1,5 +1,7 @@
 # Prepare Yarra Client Windows Machine to Connect to Yarra Server
-Adapted from [this thorough guide](https://github.com/jjkeijser/cifs-over-ssh/blob/9b55de2898900006af2eae9c787fb9b9f7dff93e/Win10/Singlehost.md)  with even more configuration options.
+First [set up your server](https://github.com/Sydney-Informatics-Hub/yarra/blob/main/YarraServer.md). Then follow this guide to be able to connect to Ronin. It is not as straight forward because you must be on the Sydney Network and you must use SSH-keys to connect to the Ronin remote machines.
+
+Adapted from [this thorough guide](https://github.com/jjkeijser/cifs-over-ssh/blob/9b55de2898900006af2eae9c787fb9b9f7dff93e/Win10/Singlehost.md) with even more configuration options.
 
 # CIFS-over-SSH: Access to a single remote host, no Kerberos
 *(tested Win10 1809,1909,20H2,21H1,21H2,22H2 and Win11 22H2 Home&Enterprise)*
