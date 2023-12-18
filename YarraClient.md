@@ -217,7 +217,7 @@ as a Windows share:
 ```
     is present before continuing.
 
-- Go to **Start->Run** and type `\\127.0.0.1\`
+- Go to **Start->Run** and type `\\127.0.0.1\YarraServer`
 - In the Console window you should now see a line 
 ```
   debug1: Connection to port 44445 forwarding to fs.example.org:445 requested.
@@ -230,7 +230,7 @@ as a Windows share:
   **Note** 
   If you carefully inspect the above screenshot then you will notice that I am using
   the (built-in) OpenSSH Authentication Agent in combination with an SSH public/private keypair to
-  avoid having to type in my password every time.
+  avoid having to type in my password every time. You can complete the connection using the `yarra` username and `yarrapassword`  password, but that is completed in the next step.
 
 
 
