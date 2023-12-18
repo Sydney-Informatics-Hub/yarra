@@ -49,21 +49,33 @@ sudo nano /etc/samba/smb.conf
 Add the following section to the end of the file:
 
 > [YarraServer]
+> 
 > path = /home/yarraserver/yarra/queue
+> 
 > available = yes
+> 
 > valid users = yarra
+> 
 > read only = no
+> 
 > browseable = no
+> 
 > public = no
+> 
 > writable = yes
+> 
 > create mask = 0770
+> 
 > directory mask = 0400
+> 
 > force user = yarraserver
+> 
 >  force group = yarra
 
 In addition, change the following setting in the file:
 
 > ############ Misc ############
+> 
 > usershare allow guests = no
 
 Save and close the file. Then restart the samba server.
