@@ -76,4 +76,4 @@ Save and close the file. Then restart the samba server.
 sudo systemctl restart smbd
 ```
 
-Done! Now go set up your client. 
+Done! Now go [set up your clien](https://github.com/Sydney-Informatics-Hub/yarra/blob/main/YarraClient.md). 
